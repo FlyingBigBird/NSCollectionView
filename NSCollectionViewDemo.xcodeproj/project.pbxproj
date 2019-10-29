@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E99C90E2367EC3B00586A6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E99C90D2367EC3B00586A6C /* AppDelegate.m */; };
+		2E99C9102367EC3E00586A6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E99C90F2367EC3E00586A6C /* Assets.xcassets */; };
+		2E99C9132367EC3E00586A6C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E99C9112367EC3E00586A6C /* MainMenu.xib */; };
+		2E99C9162367EC3E00586A6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E99C9152367EC3E00586A6C /* main.m */; };
+		2E99C9212367EC3E00586A6C /* NSCollectionViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E99C9202367EC3E00586A6C /* NSCollectionViewDemoTests.m */; };
+		2E99C92C2367EC3E00586A6C /* NSCollectionViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E99C92B2367EC3E00586A6C /* NSCollectionViewDemoUITests.m */; };
+		2E99C9422367F07800586A6C /* CollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E99C9402367F07800586A6C /* CollectionController.m */; };
+		2E99C9432367F07800586A6C /* CollectionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E99C9412367F07800586A6C /* CollectionController.xib */; };
+		2E99C94E2367F30200586A6C /* NSColor+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E99C94D2367F30200586A6C /* NSColor+Helper.m */; };
+		2E99C9522367F50900586A6C /* JoinItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E99C94F2367F50800586A6C /* JoinItem.xib */; };
+		2E99C9532367F50900586A6C /* JoinItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E99C9502367F50800586A6C /* JoinItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E99C91D2367EC3E00586A6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E99C9012367EC3B00586A6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E99C9082367EC3B00586A6C;
+			remoteInfo = NSCollectionViewDemo;
+		};
+		2E99C9282367EC3E00586A6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E99C9012367EC3B00586A6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E99C9082367EC3B00586A6C;
+			remoteInfo = NSCollectionViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E99C9092367EC3B00586A6C /* NSCollectionViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSCollectionViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E99C90C2367EC3B00586A6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E99C90D2367EC3B00586A6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E99C90F2367EC3E00586A6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E99C9122367EC3E00586A6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2E99C9142367EC3E00586A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E99C9152367EC3E00586A6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E99C9172367EC3E00586A6C /* NSCollectionViewDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSCollectionViewDemo.entitlements; sourceTree = "<group>"; };
+		2E99C91C2367EC3E00586A6C /* NSCollectionViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSCollectionViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E99C9202367EC3E00586A6C /* NSCollectionViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSCollectionViewDemoTests.m; sourceTree = "<group>"; };
+		2E99C9222367EC3E00586A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E99C9272367EC3E00586A6C /* NSCollectionViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSCollectionViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E99C92B2367EC3E00586A6C /* NSCollectionViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSCollectionViewDemoUITests.m; sourceTree = "<group>"; };
+		2E99C92D2367EC3E00586A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E99C93F2367F07800586A6C /* CollectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionController.h; sourceTree = "<group>"; };
+		2E99C9402367F07800586A6C /* CollectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionController.m; sourceTree = "<group>"; };
+		2E99C9412367F07800586A6C /* CollectionController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionController.xib; sourceTree = "<group>"; };
+		2E99C94C2367F30100586A6C /* NSColor+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Helper.h"; sourceTree = "<group>"; };
+		2E99C94D2367F30200586A6C /* NSColor+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Helper.m"; sourceTree = "<group>"; };
+		2E99C94F2367F50800586A6C /* JoinItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JoinItem.xib; sourceTree = "<group>"; };
+		2E99C9502367F50800586A6C /* JoinItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoinItem.m; sourceTree = "<group>"; };
+		2E99C9512367F50900586A6C /* JoinItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinItem.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E99C9062367EC3B00586A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E99C9192367EC3E00586A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E99C9242367EC3E00586A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E99C9002367EC3B00586A6C = {
+			isa = PBXGroup;
+			children = (
+				2E99C90B2367EC3B00586A6C /* NSCollectionViewDemo */,
+				2E99C91F2367EC3E00586A6C /* NSCollectionViewDemoTests */,
+				2E99C92A2367EC3E00586A6C /* NSCollectionViewDemoUITests */,
+				2E99C90A2367EC3B00586A6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E99C90A2367EC3B00586A6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E99C9092367EC3B00586A6C /* NSCollectionViewDemo.app */,
+				2E99C91C2367EC3E00586A6C /* NSCollectionViewDemoTests.xctest */,
+				2E99C9272367EC3E00586A6C /* NSCollectionViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E99C90B2367EC3B00586A6C /* NSCollectionViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2E99C9542367F6C200586A6C /* Class */,
+				2E99C90F2367EC3E00586A6C /* Assets.xcassets */,
+				2E99C9112367EC3E00586A6C /* MainMenu.xib */,
+				2E99C9142367EC3E00586A6C /* Info.plist */,
+				2E99C9152367EC3E00586A6C /* main.m */,
+				2E99C9172367EC3E00586A6C /* NSCollectionViewDemo.entitlements */,
+			);
+			path = NSCollectionViewDemo;
+			sourceTree = "<group>";
+		};
+		2E99C91F2367EC3E00586A6C /* NSCollectionViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E99C9202367EC3E00586A6C /* NSCollectionViewDemoTests.m */,
+				2E99C9222367EC3E00586A6C /* Info.plist */,
+			);
+			path = NSCollectionViewDemoTests;
+			sourceTree = "<group>";
+		};
+		2E99C92A2367EC3E00586A6C /* NSCollectionViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E99C92B2367EC3E00586A6C /* NSCollectionViewDemoUITests.m */,
+				2E99C92D2367EC3E00586A6C /* Info.plist */,
+			);
+			path = NSCollectionViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		2E99C9542367F6C200586A6C /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				2E99C9572367F73A00586A6C /* AppDelegate */,
+				2E99C9552367F6C700586A6C /* List */,
+				2E99C9562367F6E300586A6C /* Extension */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		2E99C9552367F6C700586A6C /* List */ = {
+			isa = PBXGroup;
+			children = (
+				2E99C93F2367F07800586A6C /* CollectionController.h */,
+				2E99C9402367F07800586A6C /* CollectionController.m */,
+				2E99C9412367F07800586A6C /* CollectionController.xib */,
+				2E99C9512367F50900586A6C /* JoinItem.h */,
+				2E99C9502367F50800586A6C /* JoinItem.m */,
+				2E99C94F2367F50800586A6C /* JoinItem.xib */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		2E99C9562367F6E300586A6C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2E99C94C2367F30100586A6C /* NSColor+Helper.h */,
+				2E99C94D2367F30200586A6C /* NSColor+Helper.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2E99C9572367F73A00586A6C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2E99C90C2367EC3B00586A6C /* AppDelegate.h */,
+				2E99C90D2367EC3B00586A6C /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E99C9082367EC3B00586A6C /* NSCollectionViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E99C9302367EC3E00586A6C /* Build configuration list for PBXNativeTarget "NSCollectionViewDemo" */;
+			buildPhases = (
+				2E99C9052367EC3B00586A6C /* Sources */,
+				2E99C9062367EC3B00586A6C /* Frameworks */,
+				2E99C9072367EC3B00586A6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSCollectionViewDemo;
+			productName = NSCollectionViewDemo;
+			productReference = 2E99C9092367EC3B00586A6C /* NSCollectionViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E99C91B2367EC3E00586A6C /* NSCollectionViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E99C9332367EC3E00586A6C /* Build configuration list for PBXNativeTarget "NSCollectionViewDemoTests" */;
+			buildPhases = (
+				2E99C9182367EC3E00586A6C /* Sources */,
+				2E99C9192367EC3E00586A6C /* Frameworks */,
+				2E99C91A2367EC3E00586A6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E99C91E2367EC3E00586A6C /* PBXTargetDependency */,
+			);
+			name = NSCollectionViewDemoTests;
+			productName = NSCollectionViewDemoTests;
+			productReference = 2E99C91C2367EC3E00586A6C /* NSCollectionViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E99C9262367EC3E00586A6C /* NSCollectionViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E99C9362367EC3E00586A6C /* Build configuration list for PBXNativeTarget "NSCollectionViewDemoUITests" */;
+			buildPhases = (
+				2E99C9232367EC3E00586A6C /* Sources */,
+				2E99C9242367EC3E00586A6C /* Frameworks */,
+				2E99C9252367EC3E00586A6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E99C9292367EC3E00586A6C /* PBXTargetDependency */,
+			);
+			name = NSCollectionViewDemoUITests;
+			productName = NSCollectionViewDemoUITests;
+			productReference = 2E99C9272367EC3E00586A6C /* NSCollectionViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E99C9012367EC3B00586A6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Boris;
+				TargetAttributes = {
+					2E99C9082367EC3B00586A6C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2E99C91B2367EC3E00586A6C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2E99C9082367EC3B00586A6C;
+					};
+					2E99C9262367EC3E00586A6C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2E99C9082367EC3B00586A6C;
+					};
+				};
+			};
+			buildConfigurationList = 2E99C9042367EC3B00586A6C /* Build configuration list for PBXProject "NSCollectionViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E99C9002367EC3B00586A6C;
+			productRefGroup = 2E99C90A2367EC3B00586A6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E99C9082367EC3B00586A6C /* NSCollectionViewDemo */,
+				2E99C91B2367EC3E00586A6C /* NSCollectionViewDemoTests */,
+				2E99C9262367EC3E00586A6C /* NSCollectionViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E99C9072367EC3B00586A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E99C9522367F50900586A6C /* JoinItem.xib in Resources */,
+				2E99C9102367EC3E00586A6C /* Assets.xcassets in Resources */,
+				2E99C9432367F07800586A6C /* CollectionController.xib in Resources */,
+				2E99C9132367EC3E00586A6C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E99C91A2367EC3E00586A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E99C9252367EC3E00586A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E99C9052367EC3B00586A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E99C94E2367F30200586A6C /* NSColor+Helper.m in Sources */,
+				2E99C9162367EC3E00586A6C /* main.m in Sources */,
+				2E99C9532367F50900586A6C /* JoinItem.m in Sources */,
+				2E99C9422367F07800586A6C /* CollectionController.m in Sources */,
+				2E99C90E2367EC3B00586A6C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E99C9182367EC3E00586A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E99C9212367EC3E00586A6C /* NSCollectionViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E99C9232367EC3E00586A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E99C92C2367EC3E00586A6C /* NSCollectionViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E99C91E2367EC3E00586A6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E99C9082367EC3B00586A6C /* NSCollectionViewDemo */;
+			targetProxy = 2E99C91D2367EC3E00586A6C /* PBXContainerItemProxy */;
+		};
+		2E99C9292367EC3E00586A6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E99C9082367EC3B00586A6C /* NSCollectionViewDemo */;
+			targetProxy = 2E99C9282367EC3E00586A6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E99C9112367EC3E00586A6C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E99C9122367EC3E00586A6C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E99C92E2367EC3E00586A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2E99C92F2367EC3E00586A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2E99C9312367EC3E00586A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSCollectionViewDemo/NSCollectionViewDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7M8Z5T322J;
+				INFOPLIST_FILE = NSCollectionViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.collectionView.mac.css.NSCollectionViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E99C9322367EC3E00586A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSCollectionViewDemo/NSCollectionViewDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7M8Z5T322J;
+				INFOPLIST_FILE = NSCollectionViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.collectionView.mac.css.NSCollectionViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2E99C9342367EC3E00586A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7M8Z5T322J;
+				INFOPLIST_FILE = NSCollectionViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.collectionView.mac.css.NSCollectionViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSCollectionViewDemo.app/Contents/MacOS/NSCollectionViewDemo";
+			};
+			name = Debug;
+		};
+		2E99C9352367EC3E00586A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7M8Z5T322J;
+				INFOPLIST_FILE = NSCollectionViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.collectionView.mac.css.NSCollectionViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSCollectionViewDemo.app/Contents/MacOS/NSCollectionViewDemo";
+			};
+			name = Release;
+		};
+		2E99C9372367EC3E00586A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7M8Z5T322J;
+				INFOPLIST_FILE = NSCollectionViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.collectionView.mac.css.NSCollectionViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NSCollectionViewDemo;
+			};
+			name = Debug;
+		};
+		2E99C9382367EC3E00586A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7M8Z5T322J;
+				INFOPLIST_FILE = NSCollectionViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.collectionView.mac.css.NSCollectionViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NSCollectionViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E99C9042367EC3B00586A6C /* Build configuration list for PBXProject "NSCollectionViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E99C92E2367EC3E00586A6C /* Debug */,
+				2E99C92F2367EC3E00586A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E99C9302367EC3E00586A6C /* Build configuration list for PBXNativeTarget "NSCollectionViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E99C9312367EC3E00586A6C /* Debug */,
+				2E99C9322367EC3E00586A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E99C9332367EC3E00586A6C /* Build configuration list for PBXNativeTarget "NSCollectionViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E99C9342367EC3E00586A6C /* Debug */,
+				2E99C9352367EC3E00586A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E99C9362367EC3E00586A6C /* Build configuration list for PBXNativeTarget "NSCollectionViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E99C9372367EC3E00586A6C /* Debug */,
+				2E99C9382367EC3E00586A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E99C9012367EC3B00586A6C /* Project object */;
+}
